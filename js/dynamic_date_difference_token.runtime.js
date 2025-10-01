@@ -8,7 +8,7 @@
         var target = new Date(targetIso);
         function tick() {
           var diff = Math.round((target.getTime() - Date.now()) / 1000);
-          el.textContent = diff.toString();
+          el.textContent = (Math.abs(diff) / 31536000).toFixed(8);
         }
         tick();
         var handle = setInterval(tick, speedMs);
