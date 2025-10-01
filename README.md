@@ -129,16 +129,16 @@ $value = $this->dynamicTokenManager->getTokenValue('my_token_name');
 
 ### Services
 
-- `dynamic_text_token.manager` - Main service for token operations
+- `dynamic_date_difference_token.manager` - Main service for token operations
 
 ## Unit tests
 
 ```bash
 # Run all tests
-../vendor/bin/phpunit -c core modules/custom/dynamic_text_token/tests
+../vendor/bin/phpunit -c core modules/custom/dynamic_date_difference_token/tests
 
 # Run a specific test group
-../vendor/bin/phpunit -c core --group=dynamic_text_token
+../vendor/bin/phpunit -c core --group=dynamic_date_difference_token
 ```
 
 ## License
