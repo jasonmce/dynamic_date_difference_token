@@ -1,0 +1,6 @@
+runtime:
+  js:
+    js/dynamic_date_difference_token.runtime.js: {}
+  dependencies:
+    - core/drupal
+    - dynamic_token_manager/base

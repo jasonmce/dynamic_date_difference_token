@@ -1,0 +1,7 @@
+name: Dynamic Date Difference Token
+type: module
+description: Provides DynamicDateDifferenceToken plugin with client-side updates.
+core_version_requirement: '^10 || ^11'
+package: Dynamic Tokens
+dependencies:
+  - drupal:dynamic_token_manager

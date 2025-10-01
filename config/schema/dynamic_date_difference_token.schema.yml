@@ -1,0 +1,7 @@
+dynamic_token_manager.dynamic_token_instance.*.plugin_config:
+  type: mapping
+  label: 'Dynamic Date Difference Token config'
+  mapping:
+    target_datetime:
+      type: string
+      label: 'Target datetime'
