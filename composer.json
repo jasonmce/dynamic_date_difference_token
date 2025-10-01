@@ -1,0 +1,19 @@
+{
+    "name": "jasonmce/dynamic_date_difference_token",
+    "description": "Drupal module to manage dynamic date difference tokens",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Jasonmce\\DynamicDateDifferenceToken\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JasonMcE",
+            "email": "github@brightshinyobject.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
